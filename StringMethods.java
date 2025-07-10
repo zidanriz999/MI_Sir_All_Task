@@ -4,13 +4,13 @@ public class StringMethods {
             // contains() একটি সাবস্ট্রিং কোনো স্ট্রিংয়ের মধ্যে আছে কি না চেক করে।
         String s1 = "Hello World";
         System.out.println("contains(): " + s1.contains("World"));         
-       
+          
 
         // substring() কাজ: স্ট্রিং থেকে একটি অংশ কেটে নেয়।
         System.out.println("substring(): " + s1.substring(6));    
 
-       
-        String joined = String.join("-", "Java", "Python", "C++");      // join()
+       // join() 
+        String joined = String.join("-", "Java", "Python", "C++");      
         System.out.println("join(): " + joined);
 
 
