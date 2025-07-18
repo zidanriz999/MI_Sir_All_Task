@@ -7,7 +7,7 @@ public class Watermelon {
         if (w % 2 == 0 && w > 2) 
         
         {
-            System.out.println("Yes");
+            System.out.println("YES");
         } 
         
         else 
