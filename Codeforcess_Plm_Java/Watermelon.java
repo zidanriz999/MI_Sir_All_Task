@@ -7,7 +7,7 @@ public class Watermelon {
           if(w>=4 && w<=100 && w%2==0) 
         
         {
-            System.out.println("Yes");
+            System.out.println("YES");
         } 
         
         else 
