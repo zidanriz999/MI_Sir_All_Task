@@ -4,6 +4,7 @@ public class Watermelon {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int w = scanner.nextInt();
+        
           if(w>=4 && w<=100 && w%2==0) 
         
         {
