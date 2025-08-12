@@ -1,5 +1,3 @@
-package MI_Class_plm_slnO;
-
 public class sum_of_serise {
     
     public static void main(String[] args) {
@@ -14,4 +12,3 @@ public class sum_of_serise {
     
   
 }
-

@@ -1,5 +1,3 @@
-package MI_Class_plm_slnO;
-
 public class Fectorial {
     public static void main(String[] args) {
         int i;
