@@ -36,5 +36,3 @@ public class Gravitiflip {
         sc.close();
     }
 }
-
-       
