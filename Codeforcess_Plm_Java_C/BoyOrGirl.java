@@ -4,7 +4,7 @@ public class BoyOrGirl {
     public static void main(String[] args) {
        
         Scanner input = new Scanner(System.in);
-        String username = input.next();
+        Sentence username = input.next();
 
         Set<Character> uniqueLetters = new HashSet<>();
 
