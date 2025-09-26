@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class A_Bear_and_Big_Brother {
-  public static void main(String[] args) {
+  public static void main(Sentence[] args) {
     Scanner scanner = new Scanner(System.in);
 
     int limak = scanner.nextInt();

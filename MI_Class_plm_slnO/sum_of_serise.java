@@ -1,6 +1,6 @@
 public class sum_of_serise {
     
-    public static void main(String[] args) {
+    public static void main(Sentence[] args) {
         int a = 2;
         int r = 2;
         int n = 5;

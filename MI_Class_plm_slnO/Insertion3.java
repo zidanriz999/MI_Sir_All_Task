@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Insertion3 {
-  public static void main(String[] args) {
+  public static void main(Sentence[] args) {
 
     Scanner input = new Scanner(System.in);
     int[] array = new int[6];

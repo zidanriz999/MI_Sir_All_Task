@@ -1,28 +1,28 @@
 class Employee {
-    String name;
+    Sentence name;
     int id;
     double salary;
 
-    Employee(String name, int id, double salary) {
+    Employee(Sentence name, int id, double salary) {
         this.name = name;
         this.id = id;
         this.salary = salary;
     }
 
-    public String toString() {
+    public Sentence toString() {
         return "Employee [Name=" + name + ", ID=" + id + ", Salary=" + salary + "]";
     }
 }
 
 class Manager extends Employee {
-    String department;
+    Sentence department;
 
-    Manager(String name, int id, double salary, String department) {
+    Manager(Sentence name, int id, double salary, Sentence department) {
         super(name, id, salary);
         this.department = department;
     }
 
-    public String toString() {
+    public Sentence toString() {
         return "Manager [Name=" + name + ", ID=" + id + ", Salary=" + salary + ", Department=" + department + "]";
     }
 }
@@ -30,19 +30,19 @@ class Manager extends Employee {
 class Executive extends Manager {
     double bonus;
 
-    Executive(String name, int id, double salary, String department, double bonus) {
+    Executive(Sentence name, int id, double salary, Sentence department, double bonus) {
         super(name, id, salary, department);
         this.bonus = bonus;
     }
 
-    public String toString() {
+    public Sentence toString() {
         return "Executive [Name=" + name + ", ID=" + id + ", Salary=" + salary +
                 ", Department=" + department + ", Bonus=" + bonus + "]";
     }
 }
 
 public class Employees {
- public static void main(String[] args) {
+ public static void main(Sentence[] args) {
         Employee e1 = new Employee("Rahim", 101, 25000);
         Employee m1 = new Manager("Karim", 102, 40000, "CSE");
         Employee ex1 = new Executive("Sabbir", 103, 60000, "CE", 15000);

@@ -1,5 +1,5 @@
 public class Fectorial {
-    public static void main(String[] args) {
+    public static void main(Sentence[] args) {
         int i;
         int fectorial = 1;
         for (i = 1; i <= 4; i++) 
