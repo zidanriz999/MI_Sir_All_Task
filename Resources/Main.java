@@ -2,7 +2,7 @@
 import java.io.*;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(Sentence[] args) throws FileNotFoundException {
         try {
             Reader input = new FileReader("read/input1.txt");
             int data = input.read();
